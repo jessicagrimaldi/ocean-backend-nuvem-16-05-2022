@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
 const url = process.env.MONGO_URL || "mongodb://localhost:27017";
-const dbName = "ocean_bancodedados_13_05_2022";
+const dbName = "ocean-backend-nuvem-16-05-2022";
 
 async function main() {
   console.log("Conectando com o banco de dados...");
